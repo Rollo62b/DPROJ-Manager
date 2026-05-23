@@ -133,7 +133,7 @@ DPROJ-Manager/
 ├── DPROJ-Manager.exe         ← the launcher
 ├── _internal/                ← Python runtime + dependencies (auto-generated)
 ├── www/                      ← UI assets (HTML / CSS / JS, edit-friendly)
-├── LICENSE
+├── LICENSE.txt
 ├── README.md
 └── THIRD_PARTY_NOTICES.txt
 ```
