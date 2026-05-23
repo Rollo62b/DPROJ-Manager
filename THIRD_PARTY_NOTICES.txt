@@ -1,0 +1,179 @@
+================================================================================
+DPROJ Manager — Third-Party Notices
+================================================================================
+
+This product bundles or depends on the following third-party components.
+Each component is distributed under its own license, summarized below.
+The full license texts are reproduced after the component list.
+
+For a current and authoritative list of dependencies and their licenses,
+see the project's `pyproject.toml` and the upstream project pages.
+
+
+--------------------------------------------------------------------------------
+1. Runtime dependencies (bundled into the distributed EXE)
+--------------------------------------------------------------------------------
+
+  Component              License                  Upstream
+  ---------------------  -----------------------  -------------------------------
+  lxml                   BSD-3-Clause             https://lxml.de/
+                         (bundles libxml2,        (libxml2 / libxslt are
+                         libxslt: MIT)             MIT-licensed by Daniel
+                                                   Veillard et al.)
+  Starlette              BSD-3-Clause             https://www.starlette.io/
+  Uvicorn                BSD-3-Clause             https://www.uvicorn.org/
+  pywebview              BSD-3-Clause             https://pywebview.flowrl.com/
+  pythonnet              MIT                      https://pythonnet.github.io/
+                                                   (Windows backend of pywebview)
+  clr-loader             MIT                      https://github.com/pythonnet/clr-loader
+  anyio                  MIT                      https://github.com/agronholm/anyio
+  h11                    MIT                      https://github.com/python-hyper/h11
+  sniffio                MIT                      https://github.com/python-trio/sniffio
+  idna                   BSD-3-Clause             https://github.com/kjd/idna
+  click                  BSD-3-Clause             https://palletsprojects.com/p/click/
+  typing-extensions      PSF-2.0                  https://github.com/python/typing_extensions
+  Python 3.11+ stdlib    PSF-2.0                  https://www.python.org/
+  (tkinter, json, os,    (Python Software
+   socket, etc.)         Foundation License)
+
+  Microsoft Edge         Microsoft EULA           Provided by the Windows OS,
+  WebView2 Runtime       (system component,       NOT bundled in this product.
+                          distribution permitted
+                          per WebView2 Terms)
+
+
+--------------------------------------------------------------------------------
+2. Build-time tools (NOT bundled in the EXE itself)
+--------------------------------------------------------------------------------
+
+  PyInstaller            GPL-2.0 WITH             https://pyinstaller.org/
+                         Bootloader-Exception
+
+  PyInstaller's bootloader (the small loader stub that lives inside the EXE)
+  is GPL-2.0 with a special exception that explicitly allows applications
+  packaged with it to be distributed under ANY license, including MIT.
+  See: https://pyinstaller.org/en/stable/license.html
+
+
+================================================================================
+3. License texts
+================================================================================
+
+================================================================================
+MIT License (applies to: pythonnet, clr-loader, anyio, h11, sniffio, libxml2,
+                          libxslt, DPROJ Manager itself)
+================================================================================
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+================================================================================
+BSD 3-Clause License (applies to: lxml, Starlette, Uvicorn, pywebview, idna,
+                                  click)
+================================================================================
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+  1. Redistributions of source code must retain the above copyright notice,
+     this list of conditions and the following disclaimer.
+
+  2. Redistributions in binary form must reproduce the above copyright notice,
+     this list of conditions and the following disclaimer in the documentation
+     and/or other materials provided with the distribution.
+
+  3. Neither the name of the copyright holder nor the names of its contributors
+     may be used to endorse or promote products derived from this software
+     without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+
+================================================================================
+Python Software Foundation License 2.0 (applies to: Python stdlib,
+                                                     typing-extensions)
+================================================================================
+
+Full text: https://docs.python.org/3/license.html
+
+Summary: a permissive license compatible with MIT/BSD. Source distributions
+and binaries of CPython may be redistributed freely, provided that the PSF
+copyright notice is preserved. The full PSF license text is included with
+every Python distribution.
+
+
+================================================================================
+PyInstaller Bootloader Exception
+================================================================================
+
+This product's executable is built with PyInstaller. PyInstaller itself is
+released under GPL-2.0, but its authors grant the following explicit
+exception (paraphrased from pyinstaller.org/en/stable/license.html):
+
+  "The PyInstaller bootloader, as distributed with PyInstaller, is licensed
+   under the GNU General Public License v2 with an explicit exception that
+   allows it to be linked into proprietary applications and distributed with
+   them, regardless of the license of the application, provided that the
+   bootloader source code is not modified."
+
+DPROJ Manager uses an unmodified PyInstaller bootloader.
+
+
+================================================================================
+Microsoft Edge WebView2 Runtime
+================================================================================
+
+DPROJ Manager renders its UI through Microsoft Edge WebView2, which is part
+of the host operating system on Windows 10 (since 2021) and Windows 11.
+The WebView2 Runtime is NOT bundled with DPROJ Manager and is governed by
+Microsoft's WebView2 Distribution Terms:
+
+  https://learn.microsoft.com/en-us/microsoft-edge/webview2/concepts/distribution
+
+End users may need to install the WebView2 Runtime separately if not already
+present:
+
+  https://developer.microsoft.com/en-us/microsoft-edge/webview2/
+
+
+================================================================================
+Trademarks (informational, not part of licensing)
+================================================================================
+
+  "Delphi", "RAD Studio", and "Embarcadero" are registered trademarks of
+  Embarcadero Technologies, Inc. DPROJ Manager is an independent project and
+  is not affiliated with, endorsed by, or sponsored by Embarcadero
+  Technologies, Inc.
+
+  "Windows", "Microsoft Edge", and "WebView2" are trademarks of Microsoft
+  Corporation. DPROJ Manager is not affiliated with Microsoft Corporation.
+
+  "Python" is a trademark of the Python Software Foundation.
+
+  All other trademarks are the property of their respective owners.
