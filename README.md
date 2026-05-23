@@ -148,6 +148,10 @@ press `F5` in the app window.
 
 ### Basic workflow
 
+At first start, the local server runs and asks for them ain repo folder in which you can place test files.
+This config file is stored unter %localappdata\%DPROJ-Manager, there are no other files or folders touched,
+except the local files of DPROJ-Manager folder.
+
 1. **Load two files**. Click `File...` on the Left, browse to your file, then
    click `Load`. Repeat for the Right side.
 2. **Click `⚙ Normalize`**. Both files are read, normalized, and compared. The
