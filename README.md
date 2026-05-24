@@ -27,9 +27,7 @@ the other with a single click — without touching the IDE.
 *(coming soon — Diff view, File picker, Save dialog)*
 
 <!-- Reserved placeholders:
-docs/screenshots/main-diff.png
-docs/screenshots/file-picker.png
-docs/screenshots/save-dialog.png
+Screenshots/001_InitialSelectFolder.png
 -->
 
 ---
