@@ -24,9 +24,11 @@ the other with a single click — without touching the IDE.
 
 ## Screenshots
 
-*(coming soon — Diff view, File picker, Save dialog)*
+Initial selection of the working folder, the folder lays under \`\`\`cd "%localappdata%\DPROJ-Manager"\`\`\`
 ![Initial selection of working folder](./Screenshots/001_InitialSelectFolder.png)
 
+Initial selection of working folder
+![Initial selection of working folder](./Screenshots/001_InitialSelectFolder.png)
 
 ---
 
