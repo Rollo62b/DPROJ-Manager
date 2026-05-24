@@ -190,13 +190,16 @@ except the local files of DPROJ-Manager folder.
    
    ![ViewDifferences](./Screenshots/010_ViewDifferences.png)
    
-   ![SearchElementsByTab](./Screenshots/011_SearchElementsByTab.png)
+5. **Search elements**.
+   Enter search phrase and navigate by Tab or Shift+Tab key.
    
+   ![SearchElementsByTab](./Screenshots/011_SearchElementsByTab.png)
+      
    ![SearchExample](./Screenshots/012_SearchExample.png)
    
-   ![SearchExample](./Screenshots/013_SearchExample.png)
-      
-5. **Save**. Click `💾 Save` (`Ctrl+S`). The Save dialog lets you:
+   ![SearchExample](./Screenshots/013_SearchExample.png) 
+
+6. **Save**. Click `💾 Save` (`Ctrl+S`). The Save dialog lets you:
    - Choose Left, Right, or Both
    - Specify a `Save as:` filename, or leave empty to overwrite the original
      (a backup is written first)
