@@ -19,6 +19,7 @@ the other with a single click — without touching the IDE.
 > (backend, parsing, normalization) plus **vanilla HTML/CSS/JavaScript**
 > (frontend), bundled into a standalone Windows EXE. No Delphi is required to
 > run or build the tool.
+> Sorry, no source code available, only the compiled binary and libraries.
 
 ---
 
