@@ -22,19 +22,6 @@ the other with a single click — without touching the IDE.
 
 ---
 
-## Screenshots
-
-Initial selection of the working folder, the folder lays under 
-```
-cd "%localappdata%\DPROJ-Manager"
-```
-![Initial selection of working folder](./Screenshots/001_InitialSelectFolder.png)
-
-Initial selection of working folder
-![Initial selection of working folder](./Screenshots/001_InitialSelectFolder.png)
-
----
-
 ## Features
 
 ### Diff & merge
@@ -145,6 +132,18 @@ press `F5` in the app window.
 
 ---
 
+## Initial startup
+
+The local server starts with initial selection of the working folder, the folder lays under 
+```
+cd "%localappdata%\DPROJ-Manager"
+```
+The local server server supports the App that renders a WebUI interface.
+![Initial selection of working folder](./Screenshots/001_InitialSelectFolder.png)
+
+---
+
+
 ## Usage
 
 ### Basic workflow
@@ -155,23 +154,57 @@ except the local files of DPROJ-Manager folder.
 
 1. **Load two files**. Click `File...` on the Left, browse to your file, then
    click `Load`. Repeat for the Right side.
+
+   ![FirstStart](./Screenshots/002_FirstStart.png)
+
+   Select left file, as origin
+   ![SelectLeftFile](./Screenshots/003_SelectLeftFile.png)
+   
+   Select right file, as new target
+   ![SelectRightFile](./Screenshots/004_SelectRightFile.png)
+   
+   Load the files into the viewer
+   ![LoadedLeftAndRight](./Screenshots/005_LoadedLeftAndRight.png)
+   
 2. **Click `⚙ Normalize`**. Both files are read, normalized, and compared. The
    result is a unified diff tree.
+   
+   ![NormalizedLeftAndRight](./Screenshots/006_NormalizedLeftAndRight.png)
+   
+   Collapse or expand the property groups
+   ![CollapseExpandAll](./Screenshots/007_CollapseExpandAll.png)
+   
 3. **Review differences**. Use the `↺ Diffs only` toggle (`Ctrl+D`) to hide
    identical sections.
+      
 4. **Pick changes**. For each diff:
    - Click `→` (or `←`) in the middle column to **copy** the value to the
      other side.
    - Click `↺` to **reset** a previous apply.
    - Use the per-row checkbox to **disable** a property (it will be removed
      on Save).
+   
+   ![CopyToRight](./Screenshots/008_CopyToRight.png)
+   
+   ![AddedRightElement](./Screenshots/009_AddedRightElement.png)
+   
+   ![ViewDifferences](./Screenshots/010_ViewDifferences.png)
+   
+   ![SearchElementsByTab](./Screenshots/011_SearchElementsByTab.png)
+   
+   ![SearchExample](./Screenshots/012_SearchExample.png)
+   
+   ![SearchExample](./Screenshots/013_SearchExample.png)
+      
 5. **Save**. Click `💾 Save` (`Ctrl+S`). The Save dialog lets you:
    - Choose Left, Right, or Both
    - Specify a `Save as:` filename, or leave empty to overwrite the original
      (a backup is written first)
    - Optionally force **platform sort** of `PropertyGroup`s
    - Optionally normalize the `ProjectExtensions` tree
-
+   
+   ![SaveChangesToRight](./Screenshots/014_SaveChangesToRight.png)
+   
 ### Keyboard shortcuts
 
 | Shortcut       | Action                                |
