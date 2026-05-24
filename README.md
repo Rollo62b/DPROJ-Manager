@@ -27,7 +27,7 @@ the other with a single click — without touching the IDE.
 *(coming soon — Diff view, File picker, Save dialog)*
 
 <!-- Reserved placeholders:
-Screenshots/001_InitialSelectFolder.png
+![Initial selection of working folder](./Screenshots/001_InitialSelectFolder.png)
 -->
 
 ---
