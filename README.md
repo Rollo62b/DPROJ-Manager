@@ -200,9 +200,10 @@ except the local files of DPROJ-Manager folder.
    
    ![SearchExample](./Screenshots/013_SearchExample.png) 
 
-   Example view of the  search for VerInfo_Keys﻿﻿ tag: [see also DP-EN](https://en.delphipraxis.net/topic/15507-new-dproj-manager-project/?do=findComment&comment=115539)
-   Image:
-   ![Find_VerInfo_Keys](./Screenshots/015_Find_VerInfo_Keys.png﻿) 
+   **Example view of the search for "VerInfo_Keys" tag**
+   [see also DP-EN](https://en.delphipraxis.net/topic/15507-new-dproj-manager-project/?do=findComment&comment=115539)
+   
+   ![Find VerInfo_Keys](./Screenshots/015_Find_VerInfo_Keys.png)
       
 6. **Save**. Click `💾 Save` (`Ctrl+S`). The Save dialog lets you:
    - Choose Left, Right, or Both
