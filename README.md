@@ -23,6 +23,8 @@ the other with a single click — without touching the IDE.
 
 ---
 
+[Google](https://www.google.com)
+
 ## Features
 
 ### Diff & merge
