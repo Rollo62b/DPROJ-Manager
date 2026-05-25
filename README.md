@@ -200,6 +200,9 @@ except the local files of DPROJ-Manager folder.
    
    ![SearchExample](./Screenshots/013_SearchExample.png) 
 
+   Example view of the  search for VerInfo_Keys﻿﻿ tag:
+   ![Find_VerInfo_Keys﻿](./Screenshots/015_Find_VerInfo_Keys﻿.png)
+
 6. **Save**. Click `💾 Save` (`Ctrl+S`). The Save dialog lets you:
    - Choose Left, Right, or Both
    - Specify a `Save as:` filename, or leave empty to overwrite the original
